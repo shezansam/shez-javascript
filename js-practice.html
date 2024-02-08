@@ -52,6 +52,49 @@
     let greeting = "My name is" + " " + name;
     console.log(greeting);
 
+    // Working with functions
+
+    console.log("Using functions:");
+
+    // function to make square numbers
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    let try02 = makeSquare(2);
+    console.log(try02);
+
+    let try03 = makeSquare(4);
+    console.log(try03);
+
+    // Bonus Math Object square function 
+    function makeSquare(theNumb) {
+      let squared = Math.pow(theNumb, 2);
+      return squared;
+    }
+
+    let try04 = makeSquare(5);
+    console.log(try04);
+
+    // Functions on my own
+    function makeName(firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName;
+      return fullName;
+    }
+
+    let name01 = makeName("Robert", "\"Beto\"", "O'Rourke");
+    console.log(name01);
+
+    let name02 = makeName("Beyonce", "Giselle", "Knowles")
+    console.log(name02);
+
+    let name03 = makeName("Lionel", "Andres", "Messi");
+    console.log(name03);
+
   </script>
 </body>
 </html>
